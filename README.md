@@ -1,0 +1,1 @@
+For checking the lack of error when loading the MA court data.

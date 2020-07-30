@@ -1,0 +1,20 @@
+include:
+  - docassemble.MAVirtualCourt:basic-questions.yml
+---
+mandatory: True
+code: |
+  allowed_courts = [
+    "Housing Court",    
+    "Boston Municipal Court",
+    "District Court",
+    "Land Court",
+    "Juvenile Court",
+    "Probate Court",
+  ]
+  ask_court_question
+  end
+---
+event: end
+question: |
+  Great!
+---
